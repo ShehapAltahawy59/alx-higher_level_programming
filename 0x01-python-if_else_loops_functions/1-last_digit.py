@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10000, 10000)
-last_digit = (number) % 10  # Get the last digit
+last_digit = abs(number) % 10  # Get the last digit
+if number < 0:
+    last_digit=- last_digit
 str = "Last digit of {} is".format(number)
 if last_digit == 0:
     print(str+ "0".format(number))
