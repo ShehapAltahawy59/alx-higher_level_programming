@@ -1,2 +1,2 @@
-#!/usr/bin/python3
-print('{}'.format(''.join(chr(i) for i in range(97, 123))))
+for c in range(ord('z'), ord('a') - 1, -2):
+    print("{:c}{:s}".format(c, chr(c - 33)), end="")
