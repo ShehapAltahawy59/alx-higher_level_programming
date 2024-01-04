@@ -1,3 +1,2 @@
 #!/usr/bin/python3
-__builtins__._('pythoniscool')
-
+import easy_print_101
