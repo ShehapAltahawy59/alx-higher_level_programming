@@ -9,5 +9,6 @@ def roman_to_int(roman_string):
         if i > 0 and x[roman_string[i]] > x[roman_string[i - 1]]:
             integer += x[roman_string[i]] - 2 * x[roman_string[i - 1]]
         else:
-            integer += roman_numerals[roman_string[i]]
+            integer += x[roman_string[i]]
     return integer
+
