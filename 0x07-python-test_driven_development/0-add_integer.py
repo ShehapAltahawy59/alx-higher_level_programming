@@ -16,4 +16,3 @@ def add_integer(a, b):
     if type(b) is float:
         b = int(b)
     return a + b
-
