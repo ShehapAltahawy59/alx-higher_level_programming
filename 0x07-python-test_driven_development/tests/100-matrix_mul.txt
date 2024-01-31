@@ -1,3 +1,9 @@
+The ``100-matrix_mul`` module
+======================
+
+Using ``matrix_mul``
+-------------------
+
 Importing the function from the module:
 	>>> matrix_mul = __import__("100-matrix_mul").matrix_mul
 
