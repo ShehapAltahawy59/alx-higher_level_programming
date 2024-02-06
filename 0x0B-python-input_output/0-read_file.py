@@ -9,6 +9,7 @@ def read_file(filename=""):
         filename: filename
 
     Raises
+        
         Exception: when the file can be opened
 
     """
