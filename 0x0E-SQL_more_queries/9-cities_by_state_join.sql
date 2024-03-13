@@ -3,5 +3,5 @@
 SELECT c.id ,c.name ,s.name
 FROM cities AS C 
 INNER JOIN states AS s
-ON cities.id = state_id 
-ORDER BY cities.id;
+ON c.id = s.id 
+ORDER BY c.id;
