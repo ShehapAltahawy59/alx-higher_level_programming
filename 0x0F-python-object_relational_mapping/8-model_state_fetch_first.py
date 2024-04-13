@@ -16,5 +16,5 @@ if __name__ == "__main__":
     if first:
         print("{}: {}".format(first.id, first.name))
     else:
-        print("")
+        print("Nothing")
     session.close()
