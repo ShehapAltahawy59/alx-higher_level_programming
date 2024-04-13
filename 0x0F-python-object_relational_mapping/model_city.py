@@ -7,7 +7,7 @@ from sqlalchemy import Column, Integer, String
 Base = declarative_base()
 
 
-class State(Base):
+class City(Base):
     """Class State"""
 
     __tablename__ = 'cites'
