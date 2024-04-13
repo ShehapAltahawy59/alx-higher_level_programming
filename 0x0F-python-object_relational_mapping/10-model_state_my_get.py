@@ -16,7 +16,7 @@ if __name__ == "__main__":
                         .filter(State.name == (sys.argv[4]))\
                         .order_by(State.id).first()
     if state:
-        print("{}: {}".format(state.id, state.name))
+        print("{}".format(state.id))
     else:
         print("Not found")
     session.close()
