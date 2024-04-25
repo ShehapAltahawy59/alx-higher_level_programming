@@ -1,6 +1,6 @@
 #!/bin/bash
 # Get the byte size of the HTTP response header for a given URL.
-response=$(curl -s -w "%{http_code}" "$1")
+response=$(curl -sL -w "%{http_code}" "$1")
 
 # Extract the status code
 status_code=$(echo "$response" | tail -n1)
